@@ -11,7 +11,7 @@
 	
 	   <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-            
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 			
 			<style>
 			
@@ -20,34 +20,34 @@
 }
 			
 			body{
-			background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 13px,rgba(0,0,0,0.03) 13px, rgba(0,0,0,0.03) 19px,transparent 19px, transparent 33px,rgba(0,0,0,0.03) 33px, rgba(0,0,0,0.03) 38px,transparent 38px, transparent 47px),repeating-radial-gradient(circle at center center, rgb(255,255,255) 0px, rgb(255,255,255) 8px,rgb(255,255,255) 8px, rgb(255,255,255) 17px,rgb(255,255,255) 17px, rgb(255,255,255) 28px,rgb(255,255,255) 28px, rgb(255,255,255) 35px); background-size: 22px 22px;
-		
-
+background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%2300032b' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23000a26'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
 			}
 			
-			.welcome{
-			height: 350px;
+			
+			.title{
+			
 			text-align: center;
-			color: #353535;
+			color:  white;
+			padding-top: 110px;
 			}
 			
-			.about{
-			background-color: #1de9b6;
+			.process{
+			
+			background-color: #1A237E;
+			height: 500px;
+			margin-top: 200px;
+			color: white;
+			text-align: center;
+			padding-top: 1px;
+			}
+			
+			.contact{
+			
 			height: 300px;
+			margin-top: 50px;
 			text-align: center;
 			color: white;
-			padding-top: 4px;
-			}
-			
-			.pricing{
-			
-			height: 800px;
-			
-			
-			padding-top: 100px;
-			text-align: center;
-			
-			
 			}
 			
 			</style>
@@ -56,114 +56,98 @@
   
   <body>
 
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper teal accent-3 ">
-        <a href="#!" class="brand-logo"> &nbsp; Daylight Sites</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#about" class="waves-effect waves-light">About</a></li>
-          <li><a href="#pricing" class="waves-effect waves-light">Pricing</a></li>
 
-        </ul>
-      </div>
-    </nav>
-  </div>
-        
+       <nav>
+    <div class="nav-wrapper indigo darken-4">
+      <a href="#" class="brand-logo">&nbsp; &nbsp; Daylight Sites</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down" >
+        <li><a href="#process">Process</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  
-  
-  <div class='welcome'>
-  
-  <h1> Welcome to Daylight Sites </h1>
-  </br>
-<a class="waves-effect waves-light btn teal accent-3" href='#pricing'>See Pricing</a> 
-    <div id='about'></div>
-  </div>
-  
+    <div class='title'>
+	<p style='margin-bottom: 0px;'> W e l c o m e &nbsp; t o . . . </p>
+<h1 style='text-shadow: 0 0 7px white; margin-top: 0px;' > <b>DAYLIGHT </b></br> WEB DESIGN </h1>
+<a class="waves-effect waves-light btn indigo darken-4" href='#process'>Learn More</a>
 
-  <div class='about z-depth-2' >
-  
-  <h2> - About - </h2>
+    </div>
+	
+	<div class='process' id='process'>
+	
+	<p style='font-size: 50px; text-shadow: 0 0 10px black;'> The Process </p>
+	
+	 <div class="row">
+    <div class="col s12 m3">
+      <div class="card indigo darken-3">
+        <div class="card-content white-text">
+          <span class="card-title"> <i class="small material-icons">open_in_browser</i> Contact Me</span>
+          <p>Use Discord or email to reach me, and send me a message explaining what the site is about.</p>
+        </div>
    
-  <p> Hello everyone! I am <b>Daylight</b>, and I am practicing <b>front-end web development</b>.</br> I  can create simple & flat websites at a <b>very affordable</b> cost. </br> The delivery time is very fast - usually <b>the same day that you order</b>.
-  
-  </div>
-  
-  
-  <div class='pricing' id='pricing' >
-  
-
-
-  <div class="row ">
-    <div class="col s12 m6 left">
-      <div class="card teal accent-4 ">
-        <div class="card-content white-text ">
-          <span class="card-title">One Page Site</span>
-          <p>1 Flat Website </br> Styles: Light or Dark </br> Max Pages: 1 </br></br> </p>
-        </div>
-        <div class="card-action">
-          <a class="waves-effect waves-light btn teal accent-3" onclick="M.toast({html: 'Add me on Discord to purchase'})">$5</a> 
-  
-        </div>
       </div>
     </div>
-  </div>
-  
-  
-
-  <div class="row ">
-    <div class="col s12 m6 right">
-      <div class="card teal accent-4 ">
-        <div class="card-content white-text ">
-          <span class="card-title">Three Page Site</span>
-          <p>1 Flat Website </br> Styles: Light or Dark </br> Max Pages: 3 </br></br> </p>
+	
+	
+	    <div class="col s12 m3">
+      <div class="card indigo darken-3">
+        <div class="card-content white-text">
+          <span class="card-title"><i class="small material-icons">add_shopping_cart</i> Place your order</span>
+          <p>Once I confirm with you, you will have then placed an order. Please wait 24 hours for the order to be finished.</p>
         </div>
-        <div class="card-action">
-          <a class="waves-effect waves-light btn teal accent-3" onclick="M.toast({html: 'Add me on Discord to purchase'})">$7</a> 
-  
-        </div>
+    
       </div>
     </div>
-  </div>
-  
+	
+	    <div class="col s12 m3">
+      <div class="card indigo darken-3">
+        <div class="card-content white-text">
+          <span class="card-title"><i class="small material-icons">assignment</i> Choose Details</span>
+          <p>I will then ask you a few questions, such as what colors you would want, what sections, etc. </p>
+        </div>
+       
+      </div>
+    </div>
+	
+	    <div class="col s12 m3">
+      <div class="card indigo darken-3">
+        <div class="card-content white-text">
+          <span class="card-title"> <i class="small material-icons">beenhere</i> Enjoy your site</span>
+          <p>You received the website. If you need any changes I will make them, and then you will send the payment. Enjoy!</p>
+        </div>
+     
+      </div>
+    </div>
 
+  </div>
+	
+	</div>
+
+
+ <div class='contact' id='pricing'>
+ 
+<p style='font-size: 50px; text-shadow: 0 0 10px black;'> Pricing </p>
+
+  <a class=" btn indigo darken-4">1 Page Website: <b>$5</b></a></br></br>
+    <a class=" btn indigo darken-4">2-3 Page Website: <b>$7</b></a>
+ 
+ 
  </div>
-  
-  
-  
-  
-  
-        <footer class="page-footer teal accent-3">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Daylight Sites</h5>
-                <p class="grey-text text-lighten-4">Affordable and simple sites.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Contact</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3">Discord: Daylight#2581</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+
+
+          
+
+
+ <footer class="page-footer indigo darken-4">
+
           <div class="footer-copyright">
             <div class="container">
-            © 2020 Daylight Sites
+            © 2020 Daylight Sites 
             </div>
           </div>
         </footer>
-            <script>
- document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-  });
-  
-    M.AutoInit();
-  </script>
 
 
   </body>
   
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
